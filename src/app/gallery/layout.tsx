@@ -9,23 +9,17 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,profile,posts,friends
+  children
 }: Readonly<{
   children: React.ReactNode;
-  profile: React.ReactNode;
-  posts: React.ReactNode;
-  friends: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body
         className={` antialiased`}
       >
-        <Image src="/hero.jpg" height={100} width={1400} alt="" />
+        {/* <Image src="/about.jpg" height={100} width={1400} alt="" /> */}
         <div className="flex justify-between gap-4 w-[70%] mx-auto p-4">
-          {profile}
-          {posts}
-          {friends}
         </div>
         {children}
       </body>

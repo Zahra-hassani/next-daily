@@ -23,6 +23,7 @@ export default function RootLayout({
           <ul className="flex justify-between items-center gap-3">
             <li><Link href='/home'>Home</Link></li>
             <li><Link href='/products'>Products</Link></li>
+            <li><Link href='/gallery'>Gallery</Link></li>
             <li><Link href='/about'>About</Link></li>
             <li><Link href='/contact'>contact</Link></li>
           </ul>
